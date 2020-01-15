@@ -1,4 +1,6 @@
 <?php
+//Tambahkan kode di bawah ini ke dalam file function.php atau bisa juga menggunakan plugin php snippets
+
 add_filter( 'wpcf7_skip_mail', 'bostio_cf7_send_whatsapp', 10, 2 );
 add_filter( 'wpcf7_display_message', 'bostio_cf_wa_sent_message', 10, 2 );
 add_action( 'wp_footer', 'bostio_cf7_add_script_footer' );
